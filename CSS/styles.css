@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    position: fixed; /* Fija el menú en la parte superior */
+    width: 150px; /* Ancho del menú */
+    height: 100vh; /* Altura completa de la ventana */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Opcional: Sombra para el menú */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Coloca los elementos de la lista en columna */
+    align-items: center; /* Centra los enlaces horizontalmente */
+}
+
+nav li {
+    margin-bottom: 20px; /* Espacio entre los elementos de navegación */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    margin-left: 250px; /* Ancho del menú para que el contenido se ajuste a la derecha */
+    padding: 2em;
+    width: calc(100% - 250px); /* Ajusta el ancho del contenido */
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    margin-top: 0;
+}
+
+.proyecto {
+    margin-bottom: 20px;
+}
+
+.proyecto h2 {
+    margin-top: 0;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+#contacto {
+    margin-top: 20px;
+}
+/* stylo js articulos */
+.content-size {
+    width: 450px; /* Ajusta el tamaño según tus necesidades */
+    height: 300px; /* Ajusta el tamaño según tus necesidades */
+    box-sizing: border-box; /* Incluye padding y border en el tamaño total */
+}
+.gamer{
+    display: flex;
+    overflow: auto;
+}
+.gamer iframe{
+    border: none;
+}
