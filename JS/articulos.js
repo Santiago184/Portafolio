@@ -22,21 +22,21 @@ const infoGamer=[
         title: "Survive Space",
         text: "Es un juego donde tienes que sobrevivir a oleadas de enemigos.",
         listItems: ["Rol", "Programador","Modelador"],
-        images: ["/IMG/unity.png", "/IMG/hola.png","/IMG/blender.png"],
+        images: ["IMG/unity.png", "IMG/hola.png","IMG/blender.png"],
         videoSrc: "https://www.youtube.com/embed/xTl--yWvKM8?si=zts53JfIdCBEyjU9"
     },
     {
         title: "Stumble food",
         text: "Es un juego multijugador donde tienes que superar varios obstáculos para llegar a la meta.",
         listItems: ["Rol", "Programador"],
-        images: ["/IMG/unity.png", "/IMG/hola.png"],
+        images: ["IMG/unity.png", "IMG/hola.png"],
         videoSrc: "https://www.youtube.com/embed/7tCRn1Tm61A?si=y0nVl7NCZ3ziy7ds" 
     },
     {
         title: "El Reino De los Elementales",
         text: "Es un juego en el cual tienes que sobrevivir a oleadas ",
         listItems: ["Rol", "Programador"],
-        images: ["/IMG/unity.png", "/IMG/hola.png"],
+        images: ["IMG/unity.png", "IMG/hola.png"],
         videoSrc: "https://www.youtube.com/embed/5eCmdR0YJOY?si=2cSjN7sUUrOBw6G9" 
     }
 ]
@@ -44,8 +44,8 @@ const infoSoftware=[
     {
         title: "Chiquitita",
         text: "Página web de comida",
-        images: ["/IMG/html-5.png", "/IMG/css-3.png"],
-        logo: "/IMG/logo.png",
+        images: ["IMG/html-5.png", "IMG/css-3.png"],
+        logo: "IMG/logo.png",
         link: "https://chiquititacomida2.000webhostapp.com"
     }
 ]
