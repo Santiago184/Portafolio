@@ -46,7 +46,7 @@ const infoSoftware=[
         text: "Página web de comida",
         images: ["IMG/html-5.png", "IMG/css-3.png"],
         logo: "IMG/logo.png",
-        link: "https://chiquititacomida2.000webhostapp.com"
+        link: "https://santiago184.github.io/Chiquitita/"
     }
 ]
 function artiSoftware(info) {
