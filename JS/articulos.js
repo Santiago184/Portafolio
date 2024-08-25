@@ -49,6 +49,45 @@ const infoSoftware=[
         link: "https://santiago184.github.io/Chiquitita/"
     }
 ]
+const infoHabilidad=[
+    {
+        title: "Desarrollo Web",
+        text: "HTML,CSS,JavaScript,WordPress"
+    },
+    {
+        title: "Bases de Datos",
+        text: "MySQL,SQL Server"
+    },
+    {
+        title: "Lenguajes de Programación",
+        text: "Java,Python,C#"
+    },
+    {
+        title: "Desarrollo de Aplicaciones y Juegos",
+        text: "Unity,Android Studio"
+    },
+    {
+        title: "Herramientas Ofimáticas",
+        text: "Word,Excel"
+    }
+]
+function artiHabi(info) {
+    const container =d.getElementById("arti-habilidad")
+
+    const arti=d.createElement("article")
+    arti.classList.add("hab")
+
+    const title=d.createElement("h3")
+    title.textContent=info.title
+    arti.appendChild(title)
+
+    const text=d.createElement("p")
+    text.textContent=info.text
+    arti.appendChild(text)
+
+    
+    container.appendChild(arti)
+}
 function artiSoftware(info) {
     const container =d.getElementById("arti-proyecs-S")
 
@@ -103,7 +142,7 @@ function artiEdu(info) {
     const arti=d.createElement("article")
     arti.classList.add("edu")
 
-    const title=d.createElement("h2")
+    const title=d.createElement("h3")
     title.textContent=info.title
     arti.appendChild(title)
 
@@ -160,3 +199,4 @@ function artiGamer(info) {
 infoGamer.forEach(artiGamer)
 infoSoftware.forEach(artiSoftware)
 infoEud.forEach(artiEdu)
+infoHabilidad.forEach(artiHabi)
